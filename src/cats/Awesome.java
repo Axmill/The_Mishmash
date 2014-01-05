@@ -2,6 +2,8 @@ package cats;
 // TODO Add variables.
 public class Awesome {
 
+	private static String SirString;
+
 	/**
 	 * @param args
 	 */
@@ -13,6 +15,17 @@ public class Awesome {
 		System.out.println(Life + Pi);
 		String CoolString = "So, you think you can stop me?";
 		System.out.println(CoolString);
+		setSirString("BY THE POWER OF ENGLISH, I WILL STOP YOU!");
+		System.out.println(SirString);
+		System.out.println("AND THE BATTLE RAGED! WITH BLADES OF FIRE! WHY AM I SINGING THIS SONG! DUM DEE DUM!");
+	}
+
+	public static String getSirString() {
+		return SirString;
+	}
+
+	public static void setSirString(String sirString) {
+		SirString = sirString;
 	}
 
 }
